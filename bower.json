@@ -6,7 +6,7 @@
     "Elliot Shiu <elliot@sandbochs.com>"
   ],
   "description": "angular-dropzone is a AngularJS directive for Dropzone.js",
-  "main": "lib/ng-dropzone.js",
+  "main": "lib/angular-dropzone.js",
   "keywords": [
     "angular-dropzone",
     "ng-dropzone",
