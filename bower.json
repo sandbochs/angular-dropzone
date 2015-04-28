@@ -13,6 +13,10 @@
     "dropzone.js",
     "dropzone"
   ],
+  "dependencies": {
+    "angular": "~1.2.0",
+    "dropzone": "~3.10.2"
+  },
   "license": "MIT",
   "ignore": [
     "**/.*",
