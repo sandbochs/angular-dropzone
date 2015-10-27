@@ -2,7 +2,7 @@
 
 Bugfixes:
   - dropzone 4 support added 
-  - 
+  
 ## 0.1.2 (2015-04-28)
 
 Bugfixes:
