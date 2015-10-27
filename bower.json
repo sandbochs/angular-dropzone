@@ -1,15 +1,15 @@
 {
-  "name": "angular-dropzone",
+  "name": "angular-dropzone4",
   "version": "0.1.3",
-  "homepage": "https://github.com/sandbochs/angular-dropzone",
+  "homepage": "https://github.com/yerlikayao/angular-dropzone",
   "authors": [
     "Elliot Shiu <elliot@sandbochs.com>",
     "Onur Yerlikaya <yerlikay.ao@gmail.com>"
   ],
   "description": "angular-dropzone is a AngularJS directive for Dropzone.js",
-  "main": "lib/angular-dropzone.js",
+  "main": "lib/angular-dropzone4.js",
   "keywords": [
-    "angular-dropzone",
+    "angular-dropzone4",
     "ng-dropzone",
     "dropzone.js",
     "dropzone"
