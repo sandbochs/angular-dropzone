@@ -6,6 +6,7 @@ AngularJS directive for Dropzone.js
 bower install angular-dropzone4
 ```
 
+add ngDropzone dependency to your app 
 ## Usage
 
 ### html
@@ -20,6 +21,7 @@ bower install angular-dropzone4
 ```
 $scope.dropzoneConfig = {
   parallelUploads: 3,
-  maxFileSize: 30
+  maxFileSize: 30,
+  url: YOUR_UPLOAD_URL
 };
 ```
