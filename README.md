@@ -6,7 +6,8 @@ AngularJS directive for Dropzone.js
 bower install angular-dropzone4
 ```
 
-add ngDropzone dependency to your app 
+You must add ngDropzone dependency to your app 
+
 ## Usage
 
 ### html
