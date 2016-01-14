@@ -1,0 +1,22 @@
+{
+  "name": "angular-dropzone",
+  "version": "0.1.2",
+  "description": "angular-dropzone is a AngularJS directive for Dropzone.js",
+  "main": "lib/angular-dropzone.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sandbochs/angular-dropzone"
+  },
+  "keywords": [
+    "angular",
+    "dropzone",
+    "file",
+    "transfer"
+  ],
+  "author": "Elliot Shiu <elliot@sandbochs.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sandbochs/angular-dropzone/issues"
+  },
+  "homepage": "https://github.com/sandbochs/angular-dropzone"
+}
