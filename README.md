@@ -15,28 +15,30 @@ Include `bower_components/dropzone/downloads/dropzone.min.js` and `bower_compone
 Add `ngDropzone` as a dependency to your module and initialize the Dropzone directive by including it in your template.
 
 ```
-<form class="dropzone"
-      method="post"
-      enctype="multipart/form-data"
-      ng-dropzone
-      dropzone="ctrl.dropzone"
-      dropzone-config="ctrl.dropzoneConfig"
-      event-handlers="{ 'addedfile': self.dzAddedFile, 'error': self.dzError }">
-</form>
+<div class="DemoController as ctrl">
+  <form class="dropzone"
+        method="post"
+        enctype="multipart/form-data"
+        ng-dropzone
+        dropzone="ctrl.dropzone"
+        dropzone-config="ctrl.dropzoneConfig"
+        event-handlers="{ 'addedfile': ctrl.dzAddedFile, 'error': ctrl.dzError }">
+  </form>
+</div>
 ```
 
 ### js
 
 ```
-myModule.controller('DemoController', [function() {
+angular.module('DemoApp', ['ngDropzone'].controller('DemoController', ['$log', function($log) {
   var self = this;
 
   self.dzAddedFile = function( file ) {
-    console.log( file );
+    $log.log( file );
   };
   
   self.dzError = function( file, errorMessage ) {
-    console.log(errorMessage);
+    $log.log(errorMessage);
   };
   
   self.dropzoneConfig = {
