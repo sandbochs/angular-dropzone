@@ -49,4 +49,4 @@ angular.module('DemoApp', ['ngDropzone'].controller('DemoController', ['$log', f
 ```
 
 To get a list of all the events, go to http://www.dropzonejs.com/#events and read through the events list.  
-If you need to use a dropzone method such as `.emit()`, tou can access the dropzone object at `$scope.dropzone`.
+If you need to use a dropzone method such as `.emit()`, you can access the dropzone object at `$scope.dropzone`.
